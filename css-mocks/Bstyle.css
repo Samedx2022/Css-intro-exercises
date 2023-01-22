@@ -1,0 +1,17 @@
+a {
+    display: inline-block;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: aquamarine;
+    color: darkblue;
+    letter-spacing: 0.1em;
+    border: 1px solid aquamarine;
+    border-radius: 17%;
+    transition: color 0.45s ease-in, background-color 0.5s ease-out;
+}
+ 
+a:hover {
+    color: azure;
+    background-color: blueviolet;
+    border: 1px solid blueviolet;
+}

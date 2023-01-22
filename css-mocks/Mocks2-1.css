@@ -1,0 +1,32 @@
+#textcard {
+    border: 1px solid rgb(182, 181, 181);
+    border-radius: 6px;
+    width: 35%;
+    margin: 0 auto;
+    box-shadow: 0px 2px 2px 1px rgb(187, 183, 183);
+}
+
+.img {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ1yCAnWze1-qu-KQY75TIdMbLdDs3Y4T4WQegXF9Tspo2xI8v");
+    width: 100%;
+    padding-bottom: 51%;
+    background-size: cover;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+
+}
+
+.main {
+    background-color: rgb(212, 212, 212);
+    font-size: 21px;
+    padding: 13px;
+}
+
+.text {
+    background-color: rgb(212, 212, 212);
+    padding: 13px;
+    font-size: 13px;
+    border-top: 1px solid grey;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
