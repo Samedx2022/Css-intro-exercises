@@ -2,9 +2,9 @@ $(document).ready(function () {
     console.log("We are ready baby!");
     $('form').submit(function(event) {
         event.preventDefault();
-        let movie = $('#movie').val();
+        const movie = $('#movie').val();
         console.log("Title:", movie)
-        let rating = $('#rating').val();
+        const rating = $('#rating').val();
         console.log("Rating:", rating)
         $('#4ner').append('<div id="Final">' + movie + '--' + rating + '<button class="removeButton">Remove</button></div>');
     
