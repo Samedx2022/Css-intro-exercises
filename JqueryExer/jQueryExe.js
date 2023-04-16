@@ -9,11 +9,12 @@ $("p").eq(5).remove();
 /// Next code below Represents the font size of the h1!, We can see the actual number in the console! ///
 
 $(document).ready(function () {
-    let number = Math.floor(Math.random() * 100)
+    const number = Math.floor(Math.random() * 100)
     console.log("H1 new Font-Size is:", number)
     $('h1').css("font-size", number)
 });
 
+// Adding a new line to the list! (Not sure if it was like this)
 $('ol').append("<li> Just adding a new Item!");
 
 $('ol').empty();
