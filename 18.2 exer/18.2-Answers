@@ -1,0 +1,35 @@
+What is HTTP? a protocol, the foundation of any data exchange on the web
+
+What is a URL? Colloquially termed a web address, is a reference to a web resource that specify its location on a computer network and mechanism for retrieving it.
+
+What is DNS? A DNS server is a computer with a database containing the public IP addresses associated with the names of the websites an IP address brings a user to. DNS acts like a phonebook for the internet. Whenever people type domain names, like Fortinet.com or Yahoo.com, into the address bar of web browsers, the DNS finds the right IP address. The site’s IP address is what directs the device to go to the correct place to access the site’s data.
+
+What is a query string?  is defined as a question mark followed by the parameters and their values. Each parameter is listed one after the other in the query string.
+
+What are two HTTP verbs and how are they different? GET AND POST, We use Get to retrieve some information from a domain website, and we use POST to impact the website itself in some way( Like submitting a form)
+
+What is an HTTP request? is made by a client, to a named host, which is located on a server. The aim of the request is to access a resource on the server. To make the request, the client uses components of a URL (Uniform Resource Locator), which includes the information needed to access the resource.
+
+What is an HTTP response? is made by a server to a client. The aim of the response is to provide the client with the resource it requested, or inform the client that the action it requested has been carried out; or else to inform the client that an error occurred in processing its request.
+
+What is an HTTP header?is a field of an HTTP request or response that passes additional context and metadata about the request or response. For example, a request message can use headers to indicate it's preferred media formats, while a response can use header to indicate the media format of the returned body.
+
+ Give a couple examples of request and response headers you have seen. request header as The most common general headers are Connection, Cache-Control, or Date. and response header 
+200 OK
+Access-Control-Allow-Origin: *
+Connection: Keep-Alive
+Content-Encoding: gzip
+Content-Type: text/html; charset=utf-8
+Date: Mon, 18 Jul 2016 16:06:00 GMT
+Etag: "c561c68d0ba92bbeb8b0f612a9199f722e3a621a"
+Keep-Alive: timeout=5, max=997
+Last-Modified: Mon, 18 Jul 2016 02:36:04 GMT
+
+What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser? Basically we pull a GET request to withdraw the desired info from a domain, It could be as a hostname or as an IP adress (theyre the same), Protocol, hostname, port, resource and query string! All take part of the domain host name.
+
+1. https://icanhazdadjoke.com/search?term=pirates
+
+2. https://icanhazdadjoke.com/ IP ADDRESS IS 172.25.96.1
+
+3. http://localhost:8000
+
