@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Giphy Party!</title>
+</head>
+<style>
+  body {
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  form {
+    margin-left: -15%;
+  }
+  input[type=submit] {
+    padding: 2%;
+    border: 1px solid rgb(61, 59, 59);
+    border-radius: 5px;
+    background-color: rgb(61, 59, 59);
+    color: white;
+  }
+  input[type=button] {
+    padding: 2%;
+    border: 1px solid rgb(245, 31, 31);
+    border-radius: 5px;
+    background-color: rgb(245, 31, 31);
+    color: white;
+  }
+  input[type=text] {
+    padding: 2%;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  input[type=submit]:hover {
+    border-color: blue;
+    color: rgb(219, 218, 218)
+  }
+  input[type=button]:hover {
+    border-color: blue;
+    color: rgb(219, 218, 218)
+  }
+  .aGif {
+    width: 300px;
+    height: 300px;
+    margin-right: 15px;
+  }
+</style>
+<body>
+  <h1>GIPHY PARTY!</h1>
+
+  <form id="myForm">
+    <input type="text" id="search" placeholder="Search gif...">
+    <input type="submit" id="submit" value="Search Giph!!">
+    <input type="button" id="boton" value="Remove Gifs">
+  </form>
+
+  <div id="gif-area"></div>
+
+<script src="https://unpkg.com/axios/dist/axios.js"></script>
+<script src="app.js"></script>
+</body>
+
+</html>
