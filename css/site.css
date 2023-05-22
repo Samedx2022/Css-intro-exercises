@@ -1,0 +1,153 @@
+/* General typography */
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  font-family: 'Arimo', sans-serif;
+  margin: 20px 7.5vw;
+  color: #333;
+  background: linear-gradient(bisque,rgb(148, 131, 109),rgb(100, 85, 66));
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1.2rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #fcd23c;
+  text-decoration: underline;
+}
+
+
+
+/* Site layout */
+
+/* This is the basic box that the main part of the page goes into */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f6ef;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hidden {
+  display: none;
+}
+
+/* Additional Fancy Styles */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+}
+
+/* Forms */
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 8px 18px 0;
+}
+
+form > * {
+  margin: 10px 0;
+}
+
+form label {
+  font-size: 0.9rem;
+  font-weight: bold;
+  display: inline-block;
+  width: 4rem;
+  text-align: right;
+  margin-right: 5px;
+  color: #333;
+}
+
+form input {
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form input:focus {
+  outline: none;
+  box-shadow: 0 0 4px 1px #fcd23c;
+}
+
+form > button {
+  width: 6rem;
+  margin: 15px 0 20px 75px;
+  border: none;
+  border-radius: 4px;
+  padding: 12px;
+  font-size: 0.9rem;
+  background-color: #ff6600;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+form > button:hover {
+  background-color: #fcd23c;
+}
+
+form > hr {
+  margin: 0;
+  border: none;
+  border-top: 1px solid #f6f6ef;
+}
+
+.login-input label {
+  width: 70px;
+}
+
+
+
+/* responsive queries for tightening things up for mobile. */
+
+@media screen and (max-width: 576px) {
+  body {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    max-width: 900px;
+    margin: 8px auto;
+  }
+}
